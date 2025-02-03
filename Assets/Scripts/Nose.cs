@@ -50,6 +50,8 @@ public class Nose : MonoBehaviour
 
     public float Progress => m_timer / m_duration;
 
+    public bool Clear => m_clear;
+    
     public Action<bool> OnSniffingChanged;
     public Action<bool> OnSniffingPitChanged;
 
